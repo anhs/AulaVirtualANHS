@@ -1,0 +1,15 @@
+from .user import UserSerializer, UserReadSerializer
+from .profesionSerializer import ProfesionSerializer, ProfesionRegisterSerializer
+from .profesorSerializer import ProfesorSerializer, ProfesorRegisterSerializer
+from .estudianteSerializer import EstudianteRegisterSerializer,EstudianteReadSerializer
+from .nivelserializer import NivelRegisterSerializer, NivelSerializer
+from .seccionSerializer import SeccionSerializer, SeccionRegisterSerializer
+from .cursoSerializer import CursoSerializer, CursoRegisterSerializer
+from .gradoSerializer import GradoSerializer, GradoRegisterSerializer
+from .cicloescolarserializer import Ciclo_escolarSerializer, Ciclo_escolarRegisterSerializer
+from .asignacionSerializer import AsignacionSerializer, AsiganacionRegisterSerializer, AsignacionReadSerializer
+from .asignacionestudianteserializer import Asignacion_estudianteSerializer, Asignacion_estudianteRegisterSerializer
+from .eventosSerializer import EventosSerializer, EventosRegisterSerializer
+from .materialdeclaseserializer import Materiales_de_claseSerializer, Materiales_de_claseRegisterSerializer
+from .tareaserializer import TareaRegisterSerializer, TareaSerializer
+from .tareaestudianteserializer import TareasestudianteRegisterSerializer, TareasestudianteSerializer,TareasestudianteReadSerializer
